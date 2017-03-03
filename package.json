@@ -1,0 +1,22 @@
+{
+  "name": "lesstest",
+  "version": "1.0.0",
+  "description": "just for test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.oschina.net/irandom/gulp"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "tony.zeng",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0"
+  }
+}

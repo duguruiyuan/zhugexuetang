@@ -1,0 +1,23 @@
+.order-title {
+  margin-top: 20px;
+  color: #888888;
+}
+.order-p-1 {
+  margin-left: 9%;
+}
+.order-p-2 {
+  margin-left: 9%;
+}
+.order-query {
+  background-color: #ff5819;
+  width: 70px;
+  height: 30px;
+  border: 0px;
+  border-radius: 9px;
+  margin-left: 2%;
+  color: #fff;
+}
+.order-select {
+  width: 19%;
+  height: 29px;
+}
