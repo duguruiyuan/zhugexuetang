@@ -3,7 +3,7 @@
     <div class="path"><a href='http://www.zhugexuetang.com'>首页</a> > 注册</div>
     <div class="l_login">
         <div class="l_login_t m-c">
-                <a href="#" class="reg_tag ishover" tag="type_phone"><img src="<?=Yii::$app->params['img_url']?>user/mobile_out.gif"/></a>
+                <a href="#" class="reg_tag ishover" tag="type_phone"><img src="http://img.zhugexuetang.com/mobile_out.gif"/></a>
         </div>
         <div class="type_phone reg_type" >
             <!--手机注册 信息开始-->
@@ -41,12 +41,12 @@
             同意<a href="javascript:void(0)" class="blue xieyi">《诸葛学堂服务协议》</a>
         </div>
     </div>
-            <span  class="loading"></span><a type="button" id="reg_submit" class="reg_submit" locked="unlocked" href="javascript:void(0);"><img src="<?=Yii::$app->params['img_url']?>user/zhuce.png?2"/></a>
+            <span  class="loading"></span><a type="button" id="reg_submit" class="reg_submit" locked="unlocked" href="javascript:void(0);"><img src="http://img.zhugexuetang.com/zhuce.png"/></a>
         </div>
 
     <div class="l_register_c">
         <!--<p><b>QQ扫描二维码快速注册：</b></p><p>扫面关注确认安全注册成功</p>-->
-        <div><img src="<?=Yii::$app->params['img_url']?>user/kaixuele.png" width="203" height="203" alt="二维码" /></div>
+        <div><img src="http://img.zhugexuetang.com/kaixuele.png" width="203" height="203" alt="二维码" /></div>
        <!-- <p><a href="#" target="_blank" class="blue">使用帮助</a></p>-->
     </div>
 </div>

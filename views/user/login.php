@@ -4,7 +4,7 @@
 
     <div class="l_login">
         <div class="l_landing_t m-c">
-            <a href="javascript:void(0)" class="ishover"><img src="<?=Yii::$app->params['img_url']?>user/landing.png" width="85%" height="40" alt="邮箱注册" /></a></div>
+            <a href="javascript:void(0)" class="ishover"><img src="http://img.zhugexuetang.com/landing.png" width="85%" height="40" alt="邮箱注册" /></a></div>
         <div class="l_info m-c">登陆账号：
             <input name="username" class="username" type="text" placeholder="" size="40" />
             <P class="ft-red usernamen"></P></div>
@@ -20,9 +20,10 @@
         </div>
         <!--手机注册 信息结束-->
         <input type="hidden" name="url" class="url" value="<?php /*echo $url;*/?>">
-        <div class="l_reg login-login" ><img src="<?=Yii::$app->params['img_url']?>user/login.png" width="84%" height="35" alt="立即登陆" /></div>
+        <div class="l_reg login-login" ><img src="http://img.zhugexuetang.com/login.png" width="84%" height="35" alt="立即登陆" /></div>
         <div class="agreed">
-            其他账号登陆：<a href="http://www.zhugexuetang.com/wechat/login"><img src="<?=Yii::$app->params['img_url']?>user/wx.png" width="30" height="30" /></a> <a href=""><img src="<?=Yii::$app->params['img_url']?>user/qq.png" width="30" height="30" /></a>
+            其他账号登陆：<a href="http://www.zhugexuetang.com/wechat/login"><img src="http://img.zhugexuetang.com/wx.png" width="30" height="30" /></a> 
+            <a href=""><img src="http://img.zhugexuetang.com/qq.png" width="30" height="30" /></a>
         </div>
     </div>
     <div class="l_login_c">

@@ -37,8 +37,8 @@ AppAsset::register($this);
 <!-- 顶部连接 -->
 <div class="wrap">
 
-    <ul class="pc-sn nav nav-pills" role="navigation">
-      <li class="one-title"><img src="<?=Yii::$app->params['img_url']?>index/logo.png"></li>
+    <ul class="pc-sn nav nav-pills mainTitle" role="navigation">
+      <li class="one-title"><img src="http://img.zhugexuetang.com/logo.png"></li>
       <li class="active "><a href="?r=site/index"><span>网站首页</span></a></li>
       <li><a href="?r=site/teacher">名师风采</a></li>
       <li><a href="?r=course/index">选课中心</a></li>
@@ -49,7 +49,7 @@ AppAsset::register($this);
       <li class="login_register login"><a href="?r=user/register">注册</a></li>
     </ul>
      <ul class="yd-sn nav nav-pills mainTitle" role="navigation">
-      <li class="one-title"><img src="<?=Yii::$app->params['img_url']?>index/logo.png"></li>
+      <li class="one-title"><img src="http://img.zhugexuetang.com/logo.png"></li>
       <li class="active "><a href="?r=site/index"><span>首页</span></a></li>
       <li><a href="?r=site/teacher">名师风采</a></li>
       <li><a href="?r=course/index">选课中心</a></li>
