@@ -6,12 +6,11 @@
   padding-top: 10px;
   margin-top: 10px;
   float: left;
+ width: 100%;
 }
 .teacher-content {
-  width: 70%;
-  margin-left: 15%;
-  background-color: #fff;
-  margin-top: 10px;
+    background-color: #fff;
+    margin: 0 auto;
 }
 .teacher-content .teacher-up {
   padding-left: 1.3%;
@@ -23,6 +22,7 @@
 }
 .teacher-content .teacher-up p span {
   margin-right: 1.5%;
+  cursor: pointer;
 }
 .teacher-content .teacher-up p span.selected {
   padding: 0 1%;
@@ -68,4 +68,39 @@
 }
 .nav-pills li.float-left {
   float: left;
+}
+.nav > li.dropdown > a{
+    padding: 10px 17%;
+    width: 80px;
+  }
+
+@media(min-width:1200px ) {
+  .teacher-content{
+    width: 1200px;
+  }
+}
+@media(max-width: 768px) {
+  .teacher-content .teacher-down a{
+    width:32%;
+  }
+}
+  @media (max-width: 320px){
+}
+@media (min-width: 321px) and (max-width: 361px){
+  .nav > li.dropdown > a{width: 97px;}
+}
+@media (min-width: 362px) and (max-width: 376px){
+  .nav > li.dropdown > a{width: 100px;}
+}
+@media (min-width: 377px) and (max-width: 412px){
+  .nav > li.dropdown > a{width: 113px;}
+}
+@media (min-width: 412px) and (max-width: 415px){
+  .nav > li.dropdown > a{width: 113px;}
+}
+@media (min-width: 416px) and (max-width: 768px){
+  .nav > li.dropdown > a {
+    padding: 10px 39%;
+    width: 233px;
+  }
 }

@@ -1,3 +1,7 @@
+<link rel="stylesheet" type="text/css" href="../views/web/media/css/shouye.css?17">
+<script src="http://localhost/work/gaiban/views/web/media/js/jquery.flexslider.js" type="text/javascript"></script>
+<script src="../views/web/media/js/jquery.flexslider.js" type="text/javascript"></script>
+ <script src="../views/web/media/js/jquery-bigSlider.js?8"></script>
 <div class="flexslider">
   <ul class="slides">
     <li><img src="<?=Yii::$app->params['img_url']?>index/shuqi.gif" width="100%"/></li>
@@ -9,7 +13,7 @@
   <div class="pc-sn content_bar row">
     <a href="#">
       <dl class="curl col-md-2">
-        <dt class="first"><img src="<?=Yii::$app->params['img_url']?>index/classification-1.png" width="170%" style="    margin-top: 21px;"></dt>
+        <dt class="first"><img src="<?=Yii::$app->params['img_url']?>index/classification-1.png" width="170%" style="margin-top: 21px;"></dt>
         <dd>
           <h2>大语文</h2>
           <p>爱上语文，做有修养的人</p>
@@ -18,7 +22,7 @@
     </a>
     <a href="#">
       <dl class="col-md-2">
-        <dt class="second"><img src="<?=Yii::$app->params['img_url']?>index/classification-2.png" width="150%" style="    margin-top: 16px;"></dt>
+        <dt class="second"><img src="<?=Yii::$app->params['img_url']?>index/classification-2.png" width="150%" style="margin-top: 16px;"></dt>
         <dd>
           <h2>思晨创意写作</h2>
           <p>我们只写让人惊喜的作文</p>
@@ -27,7 +31,7 @@
     </a>
     <a href="#">
       <dl class="col-md-2">
-        <dt class="third"><img src="<?=Yii::$app->params['img_url']?>index/classification-3.png" width="170%" style="    margin-top: 14px;"></dt>
+        <dt class="third"><img src="<?=Yii::$app->params['img_url']?>index/classification-3.png" width="170%" style="margin-top: 14px;"></dt>
         <dd>
           <h2>专项班</h2>
           <p>下面我说的，都是重点</p>
@@ -45,7 +49,7 @@
     </a>
     <a href="#">
       <dl  class="col-md-2">
-        <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/classification-5.png" width="170%" style="    margin-top: 20px;"></dt>
+        <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/classification-5.png" width="170%" style="margin-top: 20px;"></dt>
         <dd>
           <h2>庖丁阅读</h2>
           <p>庖阅读，庖丁阅读</p>
@@ -55,221 +59,71 @@
   </div>
   <div class="yd-sn  content_bar row">
     <a class="yd-a-fenlei" href="#">
-      <dl class="curl col-md-2">
+      <span class="curl col-md-2">
         <img src="<?=Yii::$app->params['img_url']?>index/yd-classification-1.png" width="100%" >
-      </dl>
+      </span>
     </a>
     <a class="yd-a-fenlei" href="#">
-      <dl class="col-md-2">
+      <span class="col-md-2">
         <img src="<?=Yii::$app->params['img_url']?>index/yd-classification-2.png" width="100%">
-      </dl>
+      </span>
     </a>
     <a class="yd-a-fenlei" href="#">
-      <dl class="col-md-2">
+      <span class="col-md-2">
         <img src="<?=Yii::$app->params['img_url']?>index/yd-classification-3.png" width="100%" >
-      </dl>
+      </span>
     </a>
     <a class="yd-a-fenlei" href="#">
-      <dl class="col-md-2">
+      <span class="col-md-2">
         <img src="<?=Yii::$app->params['img_url']?>index/yd-classification-4.png" width="100%">
-      </dl>
+      </span>
     </a>
     <a class="yd-a-fenlei" href="#">
-      <dl  class="col-md-2">
+      <span  class="col-md-2">
         <img src="<?=Yii::$app->params['img_url']?>index/yd-classification-5.png" width="100%">
-      </dl>
+      </span>
     </a>
   </div>
   <div class="ke-content">
-    <div  class="xingketuijian"style="margin-left: -4%;">
-      <h3><a href="javascript:;" class="free_more" style="display: none;">更多>></a>新课推荐<span class="free_tips" style="display: none;"> （12月19日-25日 7天限免）</span><hr  class="hr-1" ><hr  class="hr-2"></h3>
+    <div  class="xingketuijian">
+      <h3 class="pc-sn tuijian"><a href="javascript:;" class="free_more">更多>></a><span>新课推荐</span><hr  class="hr-1" ><hr  class="hr-2"></h3>
+      <div class="yd-sn"><img src="<?=Yii::$app->params['img_url']?>index/zhibotuijian.png" width="100%"/></div>
       <a href="#">
         <dl class="zuixintuijian">
           <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
           <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
+          <div class="neirong">
+            <dd class="teacher-show">授课老师：许龙</dd>
+            <hr class="zuixintuijian-hr" style=""/>
+            <dd class="money"><span class="money-2"></span><span class="money-1">￥６００</span></dd>
           </div>
         </dl>
       </a>
     </div>
-    <div  style="margin-left: -4%;">
-      <h3><a href="javascript:;" class="free_more" style="display: none;">更多>></a>新课推荐<span class="free_tips" style="display: none;"> （12月19日-25日 7天限免）</span><hr  class="hr-1" ><hr  class="hr-2"></h3>
+    <div class="zhibotuijian">
+      <h3 class="pc-sn tuijian"><a href="javascript:;" class="free_more">更多>></a><span>直播推荐</span><hr  class="hr-1" ><hr  class="hr-2"></h3>
+      <div class="yd-sn"><img src="<?=Yii::$app->params['img_url']?>index/zhibotuijian.png" width="100%"/></div>
       <a href="#">
         <dl class="zuixintuijian">
           <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
           <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
+          <div class="neirong"">
             <dd class="teacher">授课老师：许龙</dd>
             <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
-          </div>
-        </dl>
-      </a>
-      <a href="#">
-        <dl class="zuixintuijian">
-          <dt class="fifth"><img src="<?=Yii::$app->params['img_url']?>index/curriculum.png" width="100%" style="    margin-top: 20px;"></dt>
-          <dd class="color color-1" style="background-color:#c6a5ba;">大语文</dd>
-          <div style="background-color: #fff;height: 136px;position:relative">
-            <dd class="teacher">授课老师：许龙</dd>
-            <hr style="width:100%; position: absolute; bottom: 46px;"/>
-            <dd class="money"><span style="float:left;    margin-left: 6px;"></span><span style="float:right;color:red;margin-right: 6px;">￥６００</span></dd>
+            <dd class="money"><span class="money-2"></span><span class="money-1">￥６００</span></dd>
           </div>
         </dl>
       </a>
     </div>
+    
   </div>
-  <div class="pc-sn teacher">
-    <h3><a href="javascript:;" class="free_more" style="display: none;">更多>></a>老师推荐<span class="free_tips" style="display: none;"> （12月19日-25日 7天限免）</span><hr  class="hr-1" ><hr  class="hr-2"></h3>
-    <div class="teacher-jianjie" style="float:left;margin-left: -4%;">
+  <div class="pc-sn teacher-content">
+    <h3 class="pc-sn tuijian"><a href="javascript:;" class="free_more">更多>></a><span>老师推荐</span><hr  class="hr-1" ><hr  class="hr-2"></h3>
+    <div class="yd-sn"><img src="<?=Yii::$app->params['img_url']?>index/zhibotuijian.jpg" width="100%"/></div>
+    <div class="teacher-jianjie" style="float:left">
       <div class="foot-teacher">
-        <h4 class="teacher-name">窦昕</h4>
-        <p class="teacher-jianje">教学经验：首届新浪五星金牌教师、桃李杯北京市优秀教育工作者、北京市海淀区优秀教育工作者。有丰富的播音、主持、表演经验与深厚的古文字、古代文学基础。最关注孩子性格的塑造、习惯的养成，以高引高，以敏导敏。</p>
+        <h4 class="teacher-name"></h4>
+        <p class="teacher-jianje"></p>
         <button class="view-details">查看详情</button>
       </div>
     </div>
@@ -285,16 +139,17 @@
       <div class="swiper-slide" class="teacher-8"><img src="<?=Yii::$app->params['img_url']?>index/teacher-4.jpg" ><h4>窦昕</h4><p>大语文创始人</p></div>
       <div class="swiper-slide" class="teacher-9"><img src="<?=Yii::$app->params['img_url']?>index/teacher-5.jpg"><h4>窦昕</h4><p>大语文创始人</p></div>
     </div>
-    <div class="yd-sn yd-teacher">
-      <h3><a href="javascript:;" class="free_more" style="display: none;">更多>></a>老师推荐<span class="free_tips" style="display: none;"> （12月19日-25日 7天限免）</span><hr  class="hr-1" ><hr  class="hr-2"></h3>
-      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h4>窦昕</h4><p>大语文创始人</p></div>
-      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h4>窦昕</h4><p>大语文创始人</p></div>
-      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h4>窦昕</h4><p>大语文创始人</p></div>
-      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h4>窦昕</h4><p>大语文创始人</p></div>
-      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h4>窦昕</h4><p>大语文创始人</p></div>
-      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h4>窦昕</h4><p>大语文创始人</p></div>
-    </div>
   </div>
+  <div class="yd-sn yd-teacher">
+      <img src="<?=Yii::$app->params['img_url']?>index/mingshituijian.png" width="100%" class="yd-sn"/>
+      <h3 class="pc-sn tuijian"><a href="javascript:;" class="free_more">更多>></a><span>名师推荐</span><hr  class="hr-1" ><hr  class="hr-2"></h3>
+      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h6>窦昕</h6><p>大语文创始人</p></div>
+      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h6>窦昕</h6><p>大语文创始人</p></div>
+      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h6>窦昕</h6><p>大语文创始人</p></div>
+      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h6>窦昕</h6><p>大语文创始人</p></div>
+      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h6>窦昕</h6><p>大语文创始人</p></div>
+      <div><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h6>窦昕</h6><p>大语文创始人</p></div>
+    </div>
 
   <script type="text/javascript">
   $('.flexslider').flexslider({
@@ -302,6 +157,9 @@
     pauseOnAction: false,
     slideshowSpeed:5000
   });
+  var teacher = [['窦昕','doudoudoudoudoduoddoudoduoddoudod'],['范占鳌','ggggggggggggg'],['我是五个字','ttttttttttttttttttttttttttttttttttttttttts']];
+  $('.teacher-name').html(teacher[0][0]);
+  $('.teacher-jianje').html(teacher[0][1]);
   $('#container').bigSlider();  
   </script>
 </div>

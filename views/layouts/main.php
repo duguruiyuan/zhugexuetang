@@ -18,18 +18,18 @@ AppAsset::register($this);
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <metaname="viewport"content="width=1024, initial-scale=0.9"/> 
     <?= Html::csrfMetaTags() ?>
     <title>诸葛学堂</title>
     <?php $this->head() ?>
-    <script src="http://cdn.bootcss.com/less.js/1.7.0/less.min.js"></script>
     <link href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.5/css/bootstrap-flex.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../views/web/media/css/daohanglan.css?5">
-    <script src="https://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../views/web/media/css/daohanglan.css?28">
     <script src="//cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://localhost/work/gaiban/views/web/media/js/jquery.flexslider.js" type="text/javascript"></script>
-    <script src="../views/web/media/js/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="http://cdn.bootcss.com/less.js/1.7.0/less.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <script src="http://cdn.bootcss.com/tether/1.4.0/js/tether.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
-    <script src="../views/web/media/js/jquery-bigSlider.js"></script>
     <metahttp-equiv="X-UA-Compatible"content="IE=9; IE=8; IE=7; IE=EDGE">
 </head>
 <body>
@@ -38,25 +38,25 @@ AppAsset::register($this);
 <div class="wrap">
 
     <ul class="pc-sn nav nav-pills" role="navigation">
-        <li class="one-title"><img src="<?=Yii::$app->params['img_url']?>index/logo.png"></li>
+      <li class="one-title"><img src="<?=Yii::$app->params['img_url']?>index/logo.png"></li>
       <li class="active "><a href="?r=site/index"><span>网站首页</span></a></li>
       <li><a href="?r=site/teacher">名师风采</a></li>
       <li><a href="?r=course/index">选课中心</a></li>
       <li><a href="?r=home/index">我的课程</a></li>
       <li><a href="#">免费节目</a></li>
-      <li class="login_register login"><a href="#">注册</a></li>
+      <li class="login_register register"><a href="?r=user/login">登录</a></li>
       <li class="login_register"><a href="#">|</a></li>
-      <li class="login_register register"><a href="#">登录</a></li>
+      <li class="login_register login"><a href="?r=user/register">注册</a></li>
     </ul>
-     <ul class="yd-sn nav nav-pills" role="navigation">
-        <li class="one-title"><img src="<?=Yii::$app->params['img_url']?>index/logo.png"></li>
+     <ul class="yd-sn nav nav-pills mainTitle" role="navigation">
+      <li class="one-title"><img src="<?=Yii::$app->params['img_url']?>index/logo.png"></li>
       <li class="active "><a href="?r=site/index"><span>首页</span></a></li>
       <li><a href="?r=site/teacher">名师风采</a></li>
       <li><a href="?r=course/index">选课中心</a></li>
       <li><a href="?r=home/index">我的课程</a></li>
       <li><a href="#">免费节目</a></li>
-      <li class="login_register login"><a href="#">注册</a></li>
-      <li class="login_register register"><a href="#">登录</a></li>
+      <li class="login_register login"><a href="?r=user/register">注册</a></li>
+      <li class="login_register register"><a href="?r=user/login">登录</a></li>
     </ul>
           <?= Breadcrumbs::widget([
               'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],

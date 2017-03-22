@@ -9,7 +9,7 @@
             $(this).css({
                 'position': 'relative',
                 'overflow': 'hidden',
-                'margin-left': '15%',
+                'margin-left': '2%',
                 'border': '1px solid rgb(204, 204, 204)'
             });
 
@@ -149,8 +149,12 @@
             var prev = function() {
                 currentIndex = (((currentIndex - 1) % images.length) + images.length) % images.length;
                 rightArrow.css('display','block');
-                if(currentIndex == 0){
-                    leftArrow.css({'display':'none'});
+                if(teacher[currentIndex] != undefined){
+                     $('.teacher-name').html(teacher[currentIndex][0]);
+                    $('.teacher-jianje').html(teacher[currentIndex][1]);
+                }else{
+                    $('.teacher-name').html(' ');
+                    $('.teacher-jianje').html(' ');
                 }
                 go(currentIndex);
             };
@@ -158,9 +162,12 @@
             var next = function() {
                 currentIndex = (currentIndex + 1) % images.length;
                 leftArrow.css('display','block');
-                console.log(currentIndex);
-                if(currentIndex == 9){
-                    rightArrow.css({'display':'none'});
+                if(teacher[currentIndex] != undefined){
+                     $('.teacher-name').html(teacher[currentIndex][0]);
+                    $('.teacher-jianje').html(teacher[currentIndex][1]);
+                }else{
+                    $('.teacher-name').html(' ');
+                    $('.teacher-jianje').html(' ');
                 }
                 go(currentIndex);
             };

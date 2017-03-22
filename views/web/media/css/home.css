@@ -190,3 +190,30 @@
   background-color: #ccc;
   border-top: 1px solid red;
 }
+.wrap{min-width: 1200px}
+@media(max-width: 768px){
+  .wrap{min-width:100%}
+  .home-index {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .home-content .home-down{
+    width: 100%
+  }
+   .yd-course-dl {
+    float: left;
+    margin-top: 5px;
+    font-size: 14px;
+    display: none;
+  }
+  .course-content{width: 100%;margin-left: 0;margin-top: 0;}
+  .course-dl{display: none;}
+  .show-yd-course-dl,.yd-course-buy{display: block;}
+  .home-content .home-down a.course-img,.home-content .home-down a img{width: 100px}
+  .yd-course-button{margin: 28px 3%;}
+  .course-content .course-down {border-top: 10px solid #f3f3f3;}
+  .course-select{display: none}
+  .home-content .home-down{min-height: 112px;background-color: #ccc; }
+  .yd-fenlei-1 {margin-left: 5%;}
+  .float1{margin-left: 1%}
+}

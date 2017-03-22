@@ -8,14 +8,14 @@
         <div class="type_phone reg_type" >
             <!--手机注册 信息开始-->
             <div class="l_info m-c">手机号码：
-                <input name="tel" type="text" class="tel" placeholder="" size="40" maxlength="11" />
+                <input name="tel" type="text" class="tel" placeholder="" size="38" maxlength="11" />
                 <P class="ft-red teln"></P></div>
             <div class="l_info m-c">创建密码：
-                <input name="p_password" type="password" class="p_password" placeholder="" size="40" />
+                <input name="p_password" type="password" class="p_password" placeholder="" size="38" />
                 <P class="ft-red p_passwordn"></P>
             </div>
             <div class="l_info m-c">重复密码：
-                <input name="p_repassword" type="password" class="p_repassword" placeholder=""  size="40" />
+                <input name="p_repassword" type="password" class="p_repassword" placeholder=""  size="38" />
                 <P class="ft-red p_repassword"></P>
             </div>
             <div class="l_info m-c">验&nbsp;证&nbsp;&nbsp;码：
