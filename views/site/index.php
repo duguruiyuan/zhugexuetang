@@ -1,13 +1,65 @@
 <link rel="stylesheet" type="text/css" href="../views/web/media/css/shouye.css?17">
-<script src="http://localhost/work/gaiban/views/web/media/js/jquery.flexslider.js" type="text/javascript"></script>
-<script src="../views/web/media/js/jquery.flexslider.js" type="text/javascript"></script>
- <script src="../views/web/media/js/jquery-bigSlider.js?8"></script>
-<div class="flexslider">
-  <ul class="slides">
-    <li><img src="<?=Yii::$app->params['img_url']?>index/shuqi.gif" width="100%"/></li>
-    <li><a target="_blank"  href="#"><img src="<?=Yii::$app->params['img_url']?>index/shuqiu.jpg" width="100%"/></a></li>
-    <li><a target="_blank"  href="#"><img src="<?=Yii::$app->params['img_url']?>index/sicheng.jpg" width="100%"/></a></li>
-  </ul>
+<script src="../views/web/media/js/jquery-bigSlider.js?8"></script>
+<script src="../views/web/media/js/unslider.min.js" type="text/javascript"></script>
+<script src="../views/web/media/js/site/index.js" type="text/javascript"></script>
+<style>
+
+#b06 { width: 640px;}
+
+#b06 .dots { position: absolute; left: 0; right: 0; bottom: 20px;text-align: center;}
+
+#b06 .dots li 
+
+{ 
+
+  display: inline-block; 
+
+  width: 10px; 
+
+  height: 10px; 
+
+  margin: 0 4px; 
+
+  text-indent: -999em; 
+
+  border: 2px solid #fff; 
+
+  border-radius: 6px; 
+
+  cursor: pointer; 
+
+  opacity: .4; 
+
+  -webkit-transition: background .5s, opacity .5s; 
+
+  -moz-transition: background .5s, opacity .5s; 
+
+  transition: background .5s, opacity .5s;
+
+}
+
+#b06 .dots li.active 
+
+{
+
+  background: #fff;
+
+  opacity: 1;
+
+}
+
+#b06 .arrow { position: absolute; top: 200px;}
+
+#b06 #al { left: 15px;}
+
+#b06 #ar { right: 15px;}
+
+</style>
+<div class="banner" id="b06">
+    <ul>
+    </ul>
+    <a href="javascript:void(0);" class="unslider-arrow06 prev"><img class="arrow" id="al" src="http://img.zhugexuetang.com/arrowl.png" alt="prev" width="20" height="35"></a>
+    <a href="javascript:void(0);" class="unslider-arrow06 next"><img class="arrow" id="ar" src="http://img.zhugexuetang.com/arrowr.png" alt="next" width="20" height="37"></a>
 </div>
 <div class=" index-content">
   <div class="pc-sn content_bar row">
@@ -149,16 +201,5 @@
       <div><a href="?r=site/teacher"><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h6>窦昕</h6><p>大语文创始人</p></a></div>
       <div><a href="?r=site/teacher"><img src="<?=Yii::$app->params['img_url']?>index/teacher-1.png" width="100%"/><h6>窦昕</h6><p>大语文创始人</p></a></div>
     </div>
-
-  <script type="text/javascript">
-  $('.flexslider').flexslider({
-    directionNav: false,
-    pauseOnAction: false,
-    slideshowSpeed:5000
-  });
-  var teacher = [['窦昕','doudoudoudoudoduoddoudoduoddoudod'],['范占鳌','ggggggggggggg'],['我是五个字','ttttttttttttttttttttttttttttttttttttttttts']];
-  $('.teacher-name').html(teacher[0][0]);
-  $('.teacher-jianje').html(teacher[0][1]);
-  $('#container').bigSlider();  
-  </script>
 </div>
+<script src="../views/web/media/js/site/lunbo.js" type="text/javascript"></script>

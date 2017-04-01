@@ -1,53 +1,53 @@
-<link rel="stylesheet" type="text/css" href="../views/web/media/css/register.css?9">
+<script src="http://cdn.bootcss.com/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.js"></script>
+<link href="http://cdn.bootcss.com/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../views/web/media/css/register.css?11">
+<script src="http://localhost/work/gaiban/views/web/media/js/registerlogin.js"></script>
+
 <div class="wrapper clearfix">
     <div class="path"><a href='http://www.zhugexuetang.com'>首页</a> > 注册</div>
     <div class="l_login">
         <div class="l_login_t m-c">
                 <a href="#" class="reg_tag ishover" tag="type_phone"><img src="http://img.zhugexuetang.com/mobile_out.gif"/></a>
         </div>
-        <div class="type_phone reg_type" >
-            <!--手机注册 信息开始-->
-            <div class="l_info m-c">手机号码：
-                <input name="tel" type="text" class="tel" placeholder="" size="38" maxlength="11" />
-                <P class="ft-red teln"></P></div>
-            <div class="l_info m-c">创建密码：
-                <input name="p_password" type="password" class="p_password" placeholder="" size="38" />
-                <P class="ft-red p_passwordn"></P>
+        <style type="text/css">
+
+        </style>
+        　<form>
+            <div class="form-group">
+                <label>学生姓名:</label>
+                <input type="text" class="form-control" name="username" />
             </div>
-            <div class="l_info m-c">重复密码：
-                <input name="p_repassword" type="password" class="p_repassword" placeholder=""  size="38" />
-                <P class="ft-red p_repassword"></P>
+            <div class="form-group">
+                <label>创建密码:</label>
+                <input type="password" class="form-control" name="passwordone" />
             </div>
-            <div class="l_info m-c">验&nbsp;证&nbsp;&nbsp;码：
-              <span class="l_password m-c">
-              <input name="tel_code" class="tel_code" type="text"  size="26" />
-              </span>
-                <label>
-                    <input name="button" type="button" class="b-code sendcode" id="button" value="发送验证码" />
-                </label>
-                <P class="ft-red tel_coden"></P>
+            <div class="form-group">
+                <label>确认密码:</label>
+                <input type="password" class="form-control" name="passwordtwo" />
             </div>
-         </div>
-        <!--手机注册 信息结束-->
+            <div class="form-group">
+                <label>图片验证:</label>
+                <input type="text" class="form-control" name="imgverification" />
+            </div>
+            <div class="form-group">
+                <label>手机验证:</label>
+                <input type="text" class="form-control" name="phoneverification" />
+            </div>
+            <div class="form-group">
+                <button type="submit"><img src="http://img.zhugexuetang.com/zhuce.png"/></button>
+            </div>
+        </form>
         <div class="l_reg">
-            <input type="hidden" id="reg_type" name="type" value="1">
-            <input type="hidden" id="source" name="source" value="<?php echo isset($_REQUEST['source']) ? $_REQUEST['source'] : '' ;?>">
-            <input type="hidden" name="uid" class="uid" value="">
-            <input type="hidden" name="mail" class="mail" value="">
-            <input type="hidden" name="name" class="name" value="">
-            <input type="hidden" name="code_state" class="code_state" value="0">
              <div class="agreed">
             <input id="readme" class="checkbox" type="checkbox" checked="checked">
             同意<a href="javascript:void(0)" class="blue xieyi">《诸葛学堂服务协议》</a>
         </div>
     </div>
-            <span  class="loading"></span><a type="button" id="reg_submit" class="reg_submit" locked="unlocked" href="javascript:void(0);"><img src="http://img.zhugexuetang.com/zhuce.png"/></a>
+            
         </div>
 
     <div class="l_register_c">
-        <!--<p><b>QQ扫描二维码快速注册：</b></p><p>扫面关注确认安全注册成功</p>-->
-        <div><img src="http://img.zhugexuetang.com/kaixuele.png" width="203" height="203" alt="二维码" /></div>
-       <!-- <p><a href="#" target="_blank" class="blue">使用帮助</a></p>-->
+        <div><img src="http://img.zhugexuetang.com/kaixuele.png" width="203" height="203" alt="开学了" /></div>
     </div>
 </div>
 

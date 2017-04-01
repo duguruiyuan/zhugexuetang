@@ -66,8 +66,23 @@ class SiteController extends Controller
     {
         return $this->render('teacher');
     }
+      public function actionUser()
+    {
+        $data=array(
+            array(
+                'url'=>'http://www.baidu.com',
+                'img'=>'http://img.baidu.com/123.jpg'
+                ),
+            array(
+                'url'=>'http://www.163.com',
+                'img'=>'http://img.baidu.com/123.jpg'
+                ),
+            );
+        echo json_encode($data,1);
+        return;
+    }
 
-    /**
+    /** echo json_encode($arr);
      * Login action.
      *
      * @return string

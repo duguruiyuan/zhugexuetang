@@ -46,4 +46,54 @@
         style: "",
         href: ""
     });
+    $('.login-login img').on('click',function(){
+        if($('.username').val() == ''){
+            alert('用户名不能为空');
+            return false;
+        }
+        if($('.password').val() == ''){
+            alert('密码不能为空');
+            return false;
+        }
+         $.ajax({
+            data: {username:$('.username').val(),password:$('.password').val()},
+            url: "",
+            type: "post",
+            dataType: 'json',
+            success: function (data) {
+                location.href = '?r=site/index';
+            },
+            error: function () {
+                alert('登陆失败');
+                location.href = '?r=user/login';
+            }
+        });
+
+
+    });
+    $(window).keydown(function(event){
+        if(event.keyCode == 13){
+             if($('.username').val() == ''){
+                alert('用户名不能为空');
+                return false;
+            }
+            if($('.password').val() == ''){
+                alert('密码不能为空');
+                return false;
+            }
+             $.ajax({
+                data: {username:$('.username').val(),password:$('.password').val()},
+                url: "",
+                type: "post",
+                dataType: 'json',
+                success: function (data) {
+                    location.href = '?r=site/index';
+                },
+                error: function () {
+                    alert('登陆失败');
+                    location.href = '?r=user/login';
+                }
+            });
+        }
+    });
 </script>

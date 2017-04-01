@@ -30,6 +30,7 @@
   float: left;
   border-bottom: 2px solid #6849bf;
   width: 420px;
+  height: 40px;
 }
 .m-c input {
   border-radius: 5px;
@@ -60,4 +61,24 @@ a[type=button] {
 }
 .reg_submit img {
   margin-top: 20px;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    float: left;
+    margin-right: 10%;
+    margin-top: 5px;
+}
+.has-feedback .form-control {
+    padding-right: 42.5px;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+.form-control{
+  width: 70%
+}
+button{border: 0}
+.bv-form .help-block {
+    margin-bottom: -25px;
 }
